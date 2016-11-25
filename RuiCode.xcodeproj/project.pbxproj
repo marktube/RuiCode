@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F206902A1DE85EA80043E8E2 /* ShowItemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F20690291DE85EA80043E8E2 /* ShowItemViewController.m */; };
+		F206902C1DE868A70043E8E2 /* NewItemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F206902B1DE868A70043E8E2 /* NewItemViewController.m */; };
 		F213815A1DE68F3800DAA8D8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F21381591DE68F3800DAA8D8 /* main.m */; };
 		F213815D1DE68F3800DAA8D8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F213815C1DE68F3800DAA8D8 /* AppDelegate.m */; };
 		F21381601DE68F3800DAA8D8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F213815F1DE68F3800DAA8D8 /* ViewController.m */; };
@@ -16,6 +18,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F20690281DE85E530043E8E2 /* ShowItemViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShowItemViewController.h; sourceTree = "<group>"; };
+		F20690291DE85EA80043E8E2 /* ShowItemViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShowItemViewController.m; sourceTree = "<group>"; };
+		F206902B1DE868A70043E8E2 /* NewItemViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewItemViewController.m; sourceTree = "<group>"; };
+		F206902D1DE868B80043E8E2 /* NewItemViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewItemViewController.h; sourceTree = "<group>"; };
 		F21381551DE68F3800DAA8D8 /* RuiCode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RuiCode.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F21381591DE68F3800DAA8D8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F213815B1DE68F3800DAA8D8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -59,9 +65,13 @@
 			isa = PBXGroup;
 			children = (
 				F213815B1DE68F3800DAA8D8 /* AppDelegate.h */,
+				F206902B1DE868A70043E8E2 /* NewItemViewController.m */,
+				F206902D1DE868B80043E8E2 /* NewItemViewController.h */,
 				F213815C1DE68F3800DAA8D8 /* AppDelegate.m */,
 				F213815E1DE68F3800DAA8D8 /* ViewController.h */,
 				F213815F1DE68F3800DAA8D8 /* ViewController.m */,
+				F20690281DE85E530043E8E2 /* ShowItemViewController.h */,
+				F20690291DE85EA80043E8E2 /* ShowItemViewController.m */,
 				F21381611DE68F3800DAA8D8 /* Main.storyboard */,
 				F21381641DE68F3800DAA8D8 /* Assets.xcassets */,
 				F21381661DE68F3800DAA8D8 /* LaunchScreen.storyboard */,
@@ -153,7 +163,9 @@
 			files = (
 				F21381601DE68F3800DAA8D8 /* ViewController.m in Sources */,
 				F213815D1DE68F3800DAA8D8 /* AppDelegate.m in Sources */,
+				F206902A1DE85EA80043E8E2 /* ShowItemViewController.m in Sources */,
 				F213815A1DE68F3800DAA8D8 /* main.m in Sources */,
+				F206902C1DE868A70043E8E2 /* NewItemViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -310,6 +322,7 @@
 				F213816E1DE68F3800DAA8D8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
